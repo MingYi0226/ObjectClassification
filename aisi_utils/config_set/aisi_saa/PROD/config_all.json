@@ -1,0 +1,30 @@
+{
+    "workspaces":[
+        {
+            "workspace": "AISI_CANADA_WORKSPACE",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringcanada",
+                "file_share_path": "/aisicanada/input"
+            },
+            "url": "https://mflowapiv3.jnj.com/aisisaaapicanada/"
+        },
+        {
+            "workspace": "AISI_COLOMBIA_WORKSPACE",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringcolumbia",
+                "file_share_path": "/aisicolumbia/input"
+            },
+            "url": "https://mflowapiv3.jnj.com/aisisaaapicolumbia/"
+        },
+        {
+            "workspace": "AISI-PORTUGAL-PROD",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringprodportugal",
+                "file_share_path": "/aisiprodportugal/input",
+                "total_thread": 5
+            },
+            "url": "https://mflowapiv3.jnj.com/aisisaaapivpcxprodportugal/"
+        }
+    ]
+    
+}

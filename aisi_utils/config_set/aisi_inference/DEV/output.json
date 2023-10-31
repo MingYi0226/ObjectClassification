@@ -1,0 +1,19 @@
+[
+    {
+        "workspace": "AISI_MLTEST_WORKSPACE",
+        "endpoints": [
+            {
+                "endpoint_address": "https://mflowapiv3.jnj.com/mfce6af2aedef4225bee928460a90ff70m/config_all",
+                "endpoint_status": 1,
+                "endpoint_description": "Set config completed"
+            },
+            {
+                "endpoint_address": "https://mflowapiv3.jnj.com/mab1ff98ddbc640c8b995b03f82633eddm/config_all",
+                "endpoint_status": 1,
+                "endpoint_description": "Set config completed"
+            }
+        ],
+        "status": 1,
+        "description": "Set config completed"
+    }
+]

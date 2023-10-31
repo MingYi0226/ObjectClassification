@@ -1,0 +1,32 @@
+{
+    "workspaces":[
+        {
+            "workspace": "AISI-CANADA-QA",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringqacanada",
+                "Name": "AISI INFERENCE API Qa",
+                "output_path": "/aisiqacanada/output/",
+                "tracking_mode": false,
+                "workspace_name": "AISI-CANADA-QA",
+                "project_name": "Phase 2",
+                "capacity":100,
+                "acrImage": {
+                    "Name": "AISI INFERENCE API Qa",
+                    "ServicePort": "80",
+                    "ServiceName": "AISI-INFERENCE-SERVICE",
+                    "ImageUri": "crazraxpmflowqa01.azurecr.io/aisi_inference_vpcx_qa:1.0",
+                    "DType": "API",
+                    "deploymentForm": {
+                        "isGpu": true,
+                        "minMemory": 80,
+                        "maxMemory": 80,
+                        "cores":3
+                    }
+                }
+                
+            },
+            "url": "https://deployment.mflowqa.jnj.com/aisideploymentapivpcxqacanada/"
+        }
+    ]
+    
+}

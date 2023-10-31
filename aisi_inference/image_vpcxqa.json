@@ -1,0 +1,12 @@
+{
+	"Name": "AISI INFERENCE API",
+	"ACRImages": [
+		{
+			"Name": "AISI INFERENCE API",
+			"ImageUri": "mflowacrmflowv1dnav1prod.azurecr.io/aisi_inference_vpcxqa:1.0",
+			"ServiceName": "",
+			"ServicePort": "80",
+			"dtype": "API"
+		}
+	]
+}

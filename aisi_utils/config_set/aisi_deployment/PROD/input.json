@@ -1,0 +1,7 @@
+{
+    "workspaces": [
+        "AISI_CANADA_WORKSPACE", 
+        "AISI_COLOMBIA_WORKSPACE",
+        "AISI_PORTUGAL_WORKSPACE"
+    ]
+}

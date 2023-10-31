@@ -1,0 +1,8 @@
+{
+    "AZURE_CLIENT_ID": "9d0f7ea6-68c5-4143-8674-79e4b94acb9a",
+    "AZURE_CLIENT_SECRET": "oFP7Q~x8HsTpz9c8Mqsf1MvKrFHMYbzwhaHiY",
+    "AZURE_TENANT_ID": "3ac94b33-9135-4821-9502-eafda6592a35",
+    "KEY_VAULT_NAME": "aisi-qa-keyvault",
+    "AZURE_TABLE_NAME":"SaaRequest",
+    "AZURE_TABLE_DOWNLOAD_NAME":"SaaDownloadRequest"
+}

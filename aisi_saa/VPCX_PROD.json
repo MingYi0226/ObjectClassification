@@ -1,0 +1,8 @@
+{
+    "AZURE_CLIENT_ID": "98088874-4203-44c0-ac1f-d442c3630012",
+    "AZURE_CLIENT_SECRET": "wmr7Q~P3BruD5j9IAVX2qDrxCM_tqaIQqNHMV",
+    "AZURE_TENANT_ID": "3ac94b33-9135-4821-9502-eafda6592a35",
+    "KEY_VAULT_NAME": "mflowaisikeyvault",
+    "AZURE_TABLE_NAME":"SaaRequest",
+    "AZURE_TABLE_DOWNLOAD_NAME":"SaaDownloadRequest"
+}

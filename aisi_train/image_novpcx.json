@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AISI Faster RCNN",
+        "imageuri": "mflowv1qaregistry.azurecr.io/aisi_train_novpcx:1.0",
+        "algos": [
+            {
+                "name": "FasterRCNN_Pytorch",
+                "route": "training",
+                "etlImageUri": "",
+                "etlRoute": "",
+                "ServiceName": "aisi-phase2-10",
+                "ServicePort": "80"
+            }
+        ]
+    }
+]

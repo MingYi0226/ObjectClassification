@@ -1,0 +1,10 @@
+**/__pycache__/
+*.pyc
+docker_files/__pycache__/aisi_model.cpython-38.pyc
+data_augmentation/__pycache__/random_combinations.cpython-38.pyc
+output/
+docker_files/output/
+.ipynb_checkpoints
+__pycache__/*
+Pipfile*
+.vscode

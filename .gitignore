@@ -1,0 +1,11 @@
+__pycache__/
+old_main.py
+test.py
+dummy_api.py
+api_test_*
+.vscode/
+Pipfile
+Pipfile.lock
+logs
+test/*
+tmp/

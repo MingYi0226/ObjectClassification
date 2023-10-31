@@ -1,0 +1,15 @@
+{
+    "AZURE_CLIENT_ID": "cc85c282-f424-41b9-ba10-97a6f04329b5",
+    "AZURE_CLIENT_SECRET": "UHq7Q~XPXGLsqhpOi7tOGoaSX-xpg~KI75Hnm",
+    "AZURE_TENANT_ID": "3ac94b33-9135-4821-9502-eafda6592a35",
+    "KEY_VAULT_NAME": "dna-sip-mss-keyvault-dev",
+    
+    "AZURE_TABLE_NAME":"SipDeployApiDev",
+    "AZURE_REQ_TABLE_NAME":"SipDeployApiRequestDev",
+    "AZURE_MODEL_COPY_TABLE_NAME":"SipModelCopyRequestDev",
+
+    "MFLOW_HANDSHAKE_ENDPOINT": "https://mflowqa.jnj.com/gw/management/api/",
+
+    "INFERENCE_CONN_KEY_NAME":"azureconnectionaisiinferencedev",
+    "INFERENCE_FILESHARE": "aisiinference"
+}

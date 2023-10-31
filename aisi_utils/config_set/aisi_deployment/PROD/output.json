@@ -1,0 +1,17 @@
+[
+    {
+        "workspace": "AISI_CANADA_WORKSPACE",
+        "status": 1,
+        "description": "Set config completed"
+    },
+    {
+        "workspace": "AISI_COLOMBIA_WORKSPACE",
+        "status": 1,
+        "description": "Set config completed"
+    },
+    {
+        "workspace": "AISI_PORTUGAL_WORKSPACE",
+        "status": 1,
+        "description": "Set config completed"
+    }
+]

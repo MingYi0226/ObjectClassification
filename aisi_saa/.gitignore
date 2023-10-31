@@ -1,0 +1,8 @@
+__pycache__/
+logs/
+ex.py
+
+.vscode
+
+test/*
+tmp/*

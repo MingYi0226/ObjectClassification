@@ -1,0 +1,14 @@
+{
+    "workspaces":[
+        {
+            "workspace": "AISI-CANADA-DEV",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringdevcanada",
+                "file_share_path": "/aisidevcanada/input",
+                "total_thread": 5
+            },
+            "url": "https://deployment.mflowqa.jnj.com/aisisaaapivpcxdevcanada/"
+        }
+    ]
+    
+}

@@ -1,0 +1,89 @@
+{
+    "workspaces":[
+        {
+            "workspace": "AISI_CANADA_WORKSPACE",
+            "config": {
+                
+                "connection_string_key_name": "azureconnectionstringcanada",
+                "Name": "AISI INFERENCE API",
+                "output_path": "/aisicanada/output/",
+                "tracking_mode": false,
+                "workspace_name": "AISI_CANADA_WORKSPACE",
+                "project_name": "Phase 2",
+                "capacity":100,
+                "acrImage": {
+                    "Name": "AISI INFERENCE API",
+                    "ServicePort": "80",
+                    "ServiceName": "AISI-INFERENCE-SERVICE",
+                    "ImageUri": "crazraswmflowprod01.azurecr.io/aisi_inference_vpcxprod:1.0",
+                    "DType": "API",
+                    "deploymentForm": {
+                        "isGpu": true,
+                        "minMemory": 80,
+                        "maxMemory": 80,
+                        "cores":3
+                    }
+                }
+                
+            },
+            "url": "https://mflowapiv3.jnj.com/aisideploymentapicanada/"
+        },
+        {
+            "workspace": "AISI_COLOMBIA_WORKSPACE",
+            "config": {
+                
+                "connection_string_key_name": "azureconnectionstringcolumbia",
+                "Name": "AISI INFERENCE API",
+                "output_path": "/aisicolumbia/output/",
+                "tracking_mode": false,
+                "workspace_name": "AISI_COLOMBIA_WORKSPACE",
+                "project_name": "Phase 2",
+                "capacity":100,
+                "acrImage": {
+                    "Name": "AISI INFERENCE API",
+                    "ServicePort": "80",
+                    "ServiceName": "AISI-INFERENCE-SERVICE",
+                    "ImageUri": "crazraswmflowprod01.azurecr.io/aisi_inference_vpcxprod:1.0",
+                    "DType": "API",
+                    "deploymentForm": {
+                        "isGpu": true,
+                        "minMemory": 80,
+                        "maxMemory": 80,
+                        "cores":3
+                    }
+                }
+                
+            },
+            "url": "https://mflowapiv3.jnj.com/aisideploymentapicolumbia/"
+        },
+        {
+            "workspace": "AISI_PORTUGAL_WORKSPACE",
+            "config": {
+                
+                "connection_string_key_name": "azureconnectionstringportugal",
+                "Name": "AISI INFERENCE API",
+                "output_path": "/aisiportugal/output/",
+                "tracking_mode": false,
+                "workspace_name": "AISI_PORTUGAL_WORKSPACE",
+                "project_name": "Phase 2",
+                "capacity":100,
+                "acrImage": {
+                    "Name": "AISI INFERENCE API",
+                    "ServicePort": "80",
+                    "ServiceName": "AISI-INFERENCE-SERVICE",
+                    "ImageUri": "crazraswmflowprod01.azurecr.io/aisi_inference_vpcxprod:1.0",
+                    "DType": "API",
+                    "deploymentForm": {
+                        "isGpu": true,
+                        "minMemory": 80,
+                        "maxMemory": 80,
+                        "cores":3
+                    }
+                }
+                
+            },
+            "url": "https://mflowapiv3.jnj.com/aisideploymentapiportugal/"
+        }
+    ]
+    
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "workspace": "AISI_COLOMBIA_WORKSPACE",
+        "endpoints": [
+            {
+                "endpoint_address": "https://mflowapiv3.jnj.com/m345d77d0eac0499e8abe213463b52370m/config_all",
+                "endpoint_status": 1,
+                "endpoint_description": "Set config completed"
+            }
+        ],
+        "status": 1,
+        "description": "Set config completed"
+    }
+]

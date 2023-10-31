@@ -1,0 +1,32 @@
+{
+    "workspaces":[
+        {
+            "workspace": "AISI-CANADA-QA",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringqacanada",
+                "file_share_path": "/aisiqacanada/input",
+                "total_thread": 5
+            },
+            "url": "https://deployment.mflowqa.jnj.com/aisisaaapivpcxqacanada/"
+        },
+        {
+            "workspace": "AISI-COLUMBIA-QA",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringqacolumbia",
+                "file_share_path": "/aisiqacolumbia/input",
+                "total_thread": 5
+            },
+            "url": "https://deployment.mflowqa.jnj.com/aisisaaapivpcxqacolumbia/"
+        },
+        {
+            "workspace": "AISI-PORTUGAL-QA",
+            "config": {
+                "connection_string_key_name": "azureconnectionstringqaportugal",
+                "file_share_path": "/aisiqaportugal/input",
+                "total_thread": 5
+            },
+            "url": "https://deployment.mflowqa.jnj.com/aisisaaapivpcxqaportugal/"
+        }
+    ]
+    
+}

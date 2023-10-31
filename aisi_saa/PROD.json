@@ -1,0 +1,7 @@
+{
+    "AZURE_CLIENT_ID": "",
+    "AZURE_CLIENT_SECRET": "",
+    "AZURE_TENANT_ID": "",
+    "KEY_VAULT_NAME": "",
+    "AZURE_TABLE_NAME":""
+}

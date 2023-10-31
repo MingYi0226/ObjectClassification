@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AISI TRAIN TEST",
+        "imageuri": "mflowacrmflowv1dnav1prod.azurecr.io/aisi_train_testvpcxqa:1.0",
+        "algos": [
+            {
+                "name": "FasterRCNN_Pytorch",
+                "route": "training",
+                "etlImageUri": "",
+                "etlRoute": "",
+                "ServiceName": "aisi-phase2-10",
+                "ServicePort": "80"
+            }
+        ]
+    }
+]
