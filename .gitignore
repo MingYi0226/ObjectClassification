@@ -9,3 +9,4 @@ Pipfile.lock
 logs
 test/*
 tmp/
+*.json
